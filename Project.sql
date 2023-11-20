@@ -33,17 +33,17 @@ INSERT INTO project (project_title, description, category_id, sub_category_id, u
 
 
 
--- read data of users table
-SELECT project_title, category_id  from project
-ORDER BY category_id
-LIMIT 5;
+-- -- read data of users table
+-- SELECT project_title, category_id  from project
+-- ORDER BY category_id
+-- LIMIT 5;
 
--- Update data of users table
-UPDATE project
-SET category_id = 3
-WHERE ID = 4;
+-- -- Update data of users table
+-- UPDATE project
+-- SET category_id = 3
+-- WHERE ID = 4;
 
 
--- Delete data of users table
-DELETE FROM project 
-WHERE ID = 6;
+-- -- Delete data of users table
+-- DELETE FROM project 
+-- WHERE ID = 6;

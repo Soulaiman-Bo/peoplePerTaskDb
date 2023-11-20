@@ -32,17 +32,17 @@ INSERT INTO offers (price, delay, freelancer_id, project_id, modified_By) VALUES
 
 
 -- read data of users table
-SELECT *  from offers
-ORDER BY price
-LIMIT 5;
+-- SELECT *  from offers
+-- ORDER BY price
+-- LIMIT 5;
 
 
--- Update data of users table
-UPDATE offers
-SET price = 6000
-WHERE ID = 4;
+-- -- Update data of users table
+-- UPDATE offers
+-- SET price = 6000
+-- WHERE ID = 4;
 
 
--- Delete data of users table
-DELETE FROM users 
-WHERE ID = 4;
+-- -- Delete data of users table
+-- DELETE FROM users 
+-- WHERE ID = 4;

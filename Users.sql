@@ -34,34 +34,34 @@ INSERT INTO users (fullname, password, email, modified_By) VALUES
 
 
 
--- read data of users table
-SELECT fullname, email  from users
-ORDER BY created_At
-LIMIT 5;
+-- -- read data of users table
+-- SELECT fullname, email  from users
+-- ORDER BY created_At
+-- LIMIT 5;
 
 
--- Update data of users table
-UPDATE users
-SET fullname = 'Soulaiman Bouhlal'
-WHERE ID = 4;
+-- -- Update data of users table
+-- UPDATE users
+-- SET fullname = 'Soulaiman Bouhlal'
+-- WHERE ID = 4;
 
 
--- Delete data of users table
-DELETE FROM users 
-WHERE ID = 4;
+-- -- Delete data of users table
+-- DELETE FROM users 
+-- WHERE ID = 4;
 
 
 
--- Stored Procedure
-DELIMITER //
-CREATE PROCEDURE getAllOrderedUsers()
-BEGIN
-     SELECT * from users ORDER BY fullname;
-END //
-DELIMITER ;
+-- -- Stored Procedure
+-- DELIMITER //
+-- CREATE PROCEDURE getAllOrderedUsers()
+-- BEGIN
+--      SELECT * from users ORDER BY fullname;
+-- END //
+-- DELIMITER ;
 
--- Index
-CREATE INDEX usersIndex ON users(fullname);
+-- -- Index
+-- CREATE INDEX usersIndex ON users(fullname);
 
 
 

@@ -29,18 +29,18 @@ INSERT INTO testimonials (comments, job_title, modified_By, user_id) VALUES
 
 
 -- read data of users table
-SELECT * from testimonials
-WHERE ID > 5
-ORDER BY user_id
-LIMIT 5;
+-- SELECT * from testimonials
+-- WHERE ID > 5
+-- ORDER BY user_id
+-- LIMIT 5;
 
 
--- Update data of users table
-UPDATE testimonials
-SET comments = 'best service ever'
-WHERE ID = 7;
+-- -- Update data of users table
+-- UPDATE testimonials
+-- SET comments = 'best service ever'
+-- WHERE ID = 7;
 
 
--- Delete data of users table
-DELETE FROM comments 
-WHERE ID = 7;
+-- -- Delete data of users table
+-- DELETE FROM comments 
+-- WHERE ID = 7;

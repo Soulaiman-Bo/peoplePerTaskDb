@@ -31,17 +31,17 @@ INSERT INTO freelancer (fullname, Competences, modified_By, user_id) VALUES
 
 
 -- read data of users table
-SELECT * from freelancer
-ORDER BY fullname
-LIMIT 5;
+-- SELECT * from freelancer
+-- ORDER BY fullname
+-- LIMIT 5;
 
 -- Update data of users table
-UPDATE freelancer
-SET fullname = 'Soulaiman Bouhlal'
-WHERE ID = 4;
+-- UPDATE freelancer
+-- SET fullname = 'Soulaiman Bouhlal'
+-- WHERE ID = 4;
 
 
 -- Delete data of users table
-DELETE FROM users 
-WHERE ID = 4;
+-- DELETE FROM users 
+-- WHERE ID = 4;
 

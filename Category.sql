@@ -22,20 +22,20 @@ INSERT INTO category (category_name, modified_By) VALUES
 
 
 -- read data of users table
-SELECT * from category
-ORDER BY category_name
-LIMIT 5;
+-- SELECT * from category
+-- ORDER BY category_name
+-- LIMIT 5;
 
 
 -- Update data of users table
-UPDATE category
-SET fullname = 'copy Writing'
-WHERE ID = 3;
+-- UPDATE category
+-- SET fullname = 'copy Writing'
+-- WHERE ID = 3;
 
 
 -- Delete data of users table
-DELETE FROM category 
-WHERE ID = 4;
+-- DELETE FROM category 
+-- WHERE ID = 4;
 
 
 
@@ -71,17 +71,17 @@ INSERT INTO sub_category (sub_category_name, modified_By, category_id) VALUES
 
 
 -- read data of users table
-SELECT * from sub_category
-WHERE ID > 5
-ORDER BY user_id
-LIMIT 5;
+-- SELECT * from sub_category
+-- WHERE ID > 5
+-- ORDER BY user_id
+-- LIMIT 5;
 
-UPDATE category
-SET fullname = 'FrontEnd Development'
-WHERE ID = 1;
+-- UPDATE category
+-- SET fullname = 'FrontEnd Development'
+-- WHERE ID = 1;
 
 
 -- Delete data of users table
-DELETE FROM category 
-WHERE ID = 4;
+-- DELETE FROM category 
+-- WHERE ID = 4;
 
